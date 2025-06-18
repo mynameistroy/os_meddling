@@ -79,7 +79,7 @@ gdt_code:
     dw 0xFFFF       ; sets first 16 bits of the limiter (4GB)
     dw 0            ; sets the first 16 bits of the base address
     db 0            ; bits 16-23 of base address
-    db 10011010b    ; set descripter properties
+    db 10011010b    ; set descriptor properties
     db 11001111b
     db 0            ; bits 24-31 of base address
 ; Data Segment
